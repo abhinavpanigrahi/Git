@@ -1,0 +1,33 @@
+
+
+Git commands
+-----------------
+
+git init
+git remote add origin <https://http >
+git remote add origin https://github.com/abhinavpanigrahi/Azure_Databricks.git
+
+git status
+
+git add .
+
+git commit -m "commit message"
+
+git push -u origin master
+
+----------------------------------------------------------------------
+
+To remove a remote repository you enter:
+
+git remote rm origin
+
+----------------------------------------------------------------------
+Your branch is ahead of 'origin/master' by 1 commit
+
+git reset --soft HEAD~ # reset to the last commit
+git stash              # stash all the changes in the working tree 
+git push               # push changes 
+git stash pop          # get your changes back 
+
+----------------------------------------------------------------------
+
